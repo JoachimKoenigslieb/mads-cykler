@@ -58,7 +58,7 @@ const App = () => {
 			<Grid item container xs={12}>
 				{ cykler.map(cykel => {
 					return (
-						<Grid item xs={4}>
+						<Grid item xs={12} md={4}>
 							<Cykel cykel={cykel}/>
 						</Grid>
 					)
