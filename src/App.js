@@ -27,6 +27,12 @@ const cykler = [
 	}
 ]
 
+const P = styled.p`
+	:hover {
+		background-color: red;
+	}
+`
+
 const Cykel = ({ cykel, }) => {
 	const { titel, billede, pris, } = cykel
 
@@ -65,9 +71,9 @@ const App = () => {
 				})}
 			</Grid>
 			<Grid item xs={12}>
-				<p>
+				<P>
 					Jeg håber meget gerne i vil købe mine cykler fordi jeg har laver stor middag:)))
-				</p>
+				</P>
 			</Grid>
 		</Grid>
 	</Container>
